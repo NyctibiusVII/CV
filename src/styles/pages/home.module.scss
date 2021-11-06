@@ -1,0 +1,19 @@
+.container {
+    height: 100vh;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Desktop */
+@media (min-width: 750px) {
+    .container {
+        max-width: 60.75rem;
+
+        margin: 0 auto;
+    }
+}
