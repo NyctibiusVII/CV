@@ -63,6 +63,7 @@
 [data-theme='light'] {
     /* ~~~~~~~~~~~~~~~~~ Geral ~~~~~~~~~~~~~~~~~ */
     --background               : var(--grey-100);
+    --border                   : var(--shadow-5p);
     --line                     : var(--grey-300);
     --title                    : var(--blue-400);
     --text                     : var(--grey-500);
@@ -70,27 +71,52 @@
     --scrollbar-bg             : transparent;
     --scrollbar-thumb-bg       : var(--blue-400);
     --scrollbar-corner-bg      : transparent;
+    /* Selection Mouse -------- */
+    --selection-mouse-background : var(--blue-400);
+    --selection-mouse-foreground : var(--code-cyan);
+    /* Aside ---------------- */
+    --aside-background         : var(--grey-300);
+    /* Main ----------------- */
+    --main-background          : transparent;
     /* Profile -------------- */
     --profile-username         : var(--blue-400);
+    /* Donwload Pdf --------- */
+    --d-pdf-background         : transparent;
+    --d-pdf-color-hover        : var(--green-100);
+    --d-pdf-border             : var(--grey-500);
+    --d-pdf-border-hover       : var(--green-100);
     /* 404 Page ------------- */
     --404-background           : var(--red-100);
     --404-text                 : var(--white);
 }
 [data-theme='dark'] {
     /* ~~~~~~~~~~~~~~~~~ Geral ~~~~~~~~~~~~~~~~~ */
-    --background               : var(--blue-600);
-    --line                     : var(--code-selection);
-    --title                    : var(--blue-400);
-    --text                     : var(--code-foreground);
-    /* Scrollbar ------------ */
-    --scrollbar-bg             : transparent;
-    --scrollbar-thumb-bg       : var(--purple-100);
-    --scrollbar-corner-bg      : transparent;
-    /* Profile -------------- */
-    --profile-username         : var(--white);
-    /* 404 Page ------------- */
-    --404-background           : var(--blue-700);
-    --404-text                 : var(--red-100);
+    --background                 : var(--blue-600);
+    --border                     : var(--shadow-5p);
+    --line                       : var(--code-selection);
+    --title                      : var(--blue-400);
+    --text                       : var(--code-foreground);
+    /* Scrollbar -------------- */
+    --scrollbar-bg               : transparent;
+    --scrollbar-thumb-bg         : var(--code-orange);
+    --scrollbar-corner-bg        : transparent;
+    /* Selection Mouse -------- */
+    --selection-mouse-background : var(--code-background);
+    --selection-mouse-foreground : var(--code-orange);
+    /* Aside ------------------ */
+    --aside-background           : var(--blue-700);
+    /* Main ------------------- */
+    --main-background            : transparent;
+    /* Profile ---------------- */
+    --profile-username           : var(--white);
+    /* Donwload Pdf ----------- */
+    --d-pdf-background           : transparent;
+    --d-pdf-color-hover          : var(--green-100);
+    --d-pdf-border               : var(--white);
+    --d-pdf-border-hover         : var(--green-100);
+    /* 404 Page --------------- */
+    --404-background             : var(--blue-700);
+    --404-text                   : var(--red-100);
 }
 
 
