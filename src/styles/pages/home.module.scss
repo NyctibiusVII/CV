@@ -7,8 +7,11 @@
     flex-direction: column;
 
     aside {
+        padding-bottom: 2.5rem;
+
         display: flex;
         flex-direction: column;
+
         gap: 2.5rem;
     }
     main { background-color: var(--main-background); }

@@ -4,6 +4,7 @@ import { Profile }   from '../components/profile'
 import { Social }    from '../components/social'
 import { Summary }   from '../components/summary'
 import { Education } from '../components/education'
+import { Skills }    from '../components/skills'
 
 import Head  from 'next/head'
 
@@ -21,8 +22,7 @@ export default function Home() {
                 <Social />
                 <Summary />
                 <Education />
-
-                <h2>SKILLS</h2>
+                <Skills />
             </aside>
 
             <main className={styles.main}>
