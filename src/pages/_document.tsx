@@ -77,7 +77,7 @@ export default class MyDocument extends Document {
                     <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='anonymous' />
                     <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap' rel='stylesheet' />
 
-                    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
+                    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='preload stylesheet' as='font' />
                 </Head>
                 <body>
                     <Main />

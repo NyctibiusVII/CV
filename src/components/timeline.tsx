@@ -21,7 +21,7 @@ export const Timeline = (props: TimelineProps) => {
     return (
         <li className={`${styles.container} ${props.decoration ? styles.decoration : ''} ${props.decoration && props.last ? styles.last : ''}`}>
             <h3 title={props.subtitle}>
-                <Link href={props.link}><a target='_blank'>{props.title}</a></Link>
+                <Link href={props.link}><a target='_blank' rel='noopener'>{props.title}</a></Link>
             </h3>
             { props.context === 'education' ?
                 <>
