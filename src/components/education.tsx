@@ -10,19 +10,19 @@ export const Education = () => {
             <h2>Education</h2>
             <ul>
                 <Timeline
-                    title='Zenaide'
-                    titleAttribute='E.E. Profª Zenaide Lopes de Oliveira Godoy'
-                    description='High school'
-                    data='2017 - 2019'
-                    link='https://www.google.com/search?q=zenaide+lopes+de+oliveira+godoy'
-                    context='education'
-                />
-                <Timeline
                     title='Ceap'
                     titleAttribute='Centro Educacional Assistencial Profissionalizante'
                     description='Technical school (NGO)'
                     data='2018 - 2019'
                     link='https://ceappedreira.org.br'
+                    context='education'
+                />
+                <Timeline
+                    title='Zenaide'
+                    titleAttribute='E.E. Profª Zenaide Lopes de Oliveira Godoy'
+                    description='High school'
+                    data='2017 - 2019'
+                    link='https://www.google.com/search?q=zenaide+lopes+de+oliveira+godoy'
                     context='education'
                     last={true}
                 />
