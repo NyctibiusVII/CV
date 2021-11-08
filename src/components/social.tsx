@@ -7,7 +7,7 @@ export const Social = () => {
                 <p><i className='bx bxl-github bx-xs'          />@NyctibiusVII</p>
                 <p><i className='bx bxl-instagram-alt bx-xs'   />@nyctibius_vii</p>
             </div>
-            
+
             <style jsx>{`
                 .container {
                     display: flex;
@@ -21,6 +21,9 @@ export const Social = () => {
                     gap: 0.5rem;
                 }
 
+
+
+                /* Desktop */
                 @media (min-width: 750px) { .container { align-items: flex-start; } }
             `}</style>
         </div>

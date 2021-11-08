@@ -35,6 +35,9 @@ export const Certificates = () => {
                 }
                 .container ul { padding: 0 1rem; }
 
+
+
+                /* Desktop */
                 @media (min-width: 750px) { .container { align-items: flex-start; } .container ul { padding: 0; } }
             `}</style>
         </div>

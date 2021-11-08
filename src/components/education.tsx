@@ -38,6 +38,9 @@ export const Education = () => {
                 }
                 .container ul { width: 70%; }
 
+
+
+                /* Desktop */
                 @media (min-width: 350px) { .container ul { max-width: 60%; } }
                 @media (min-width: 450px) { .container ul { max-width: 50%; } }
                 @media (min-width: 550px) { .container ul { max-width: 40%; } }

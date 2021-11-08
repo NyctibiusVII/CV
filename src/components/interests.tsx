@@ -30,6 +30,9 @@ export const Interests = () => {
                     align-items: center;
                 }
 
+
+
+                /* Desktop */
                 @media (min-width: 750px) { .container { align-items: flex-start; } .container div { padding: 0 0 5rem; gap: 3.5rem; } }
             `}</style>
         </div>

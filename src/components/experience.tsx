@@ -39,10 +39,12 @@ export const Experience = () => {
                 }
                 .container ul { width: 90%; }
 
+                
+
+                /* Desktop */
                 @media (min-width: 450px) { .container ul { max-width: 80%; } }
                 @media (min-width: 550px) { .container ul { max-width: 70%; } }
                 @media (min-width: 650px) { .container ul { max-width: 65%; } }
-
                 @media (min-width: 750px) { .container { align-items: flex-start; } .container ul { max-width: 100%; } }
             `}</style>
         </section>

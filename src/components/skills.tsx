@@ -32,6 +32,9 @@ export const Skills = () => {
                     gap: 2rem;
                 }
 
+
+                
+                /* Desktop */
                 @media (min-width: 750px) { .container { align-items: flex-start; } .container div { padding-left: 1.5rem; } }
             `}</style>
         </div>
