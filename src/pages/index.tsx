@@ -32,7 +32,6 @@ export default function Home() {
                 <Experience />
 
                 <h2>CERTIFICATES</h2>
-                <h2>REFERENCES</h2>
 
                 <Languages />
                 <Interests />
