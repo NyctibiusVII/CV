@@ -1,6 +1,6 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import styles from '../styles/components/timeline.module.scss'
 
