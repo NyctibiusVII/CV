@@ -2,6 +2,7 @@
 
 import { Profile } from '../components/profile'
 import { Social }  from '../components/social'
+import { Summary }  from '../components/summary'
 
 import Head  from 'next/head'
 
@@ -17,8 +18,8 @@ export default function Home() {
             <aside>
                 <Profile />
                 <Social />
+                <Summary />
 
-                <h2>PROFILE</h2>
                 <h2>EDUCATION</h2>
                 <h2>SKILLS</h2>
             </aside>
