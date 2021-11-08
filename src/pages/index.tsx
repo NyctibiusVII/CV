@@ -6,6 +6,7 @@ import { Summary }    from '../components/summary'
 import { Education }  from '../components/education'
 import { Skills }     from '../components/skills'
 import { Experience } from '../components/experience'
+import { Languages }  from '../components/languages'
 
 import Head  from 'next/head'
 
@@ -31,7 +32,9 @@ export default function Home() {
 
                 <h2>CERTIFICATES</h2>
                 <h2>REFERENCES</h2>
-                <h2>LANGUAGES</h2>
+
+                <Languages />
+
                 <h2>INTERESTS</h2>
             </main>
         </div>
