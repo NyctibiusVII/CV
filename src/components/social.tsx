@@ -7,6 +7,7 @@ export const Social = () => {
                 <p><i className='bx bxl-github bx-xs'          />@NyctibiusVII</p>
                 <p><i className='bx bxl-instagram-alt bx-xs'   />@nyctibius_vii</p>
             </div>
+            
             <style jsx>{`
                 .container {
                     display: flex;

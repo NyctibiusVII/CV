@@ -17,6 +17,7 @@ export const Skills = () => {
                     <li>Git</li>
                 </ul>
             </div>
+
             <style jsx>{`
                 .container {
                     display: flex;
