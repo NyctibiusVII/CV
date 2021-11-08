@@ -1,6 +1,7 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
 import { Profile } from '../components/profile'
+import { Social }  from '../components/social'
 
 import Head  from 'next/head'
 
@@ -15,9 +16,8 @@ export default function Home() {
 
             <aside>
                 <Profile />
+                <Social />
 
-                <br/>
-                <h2>SOCIAL</h2>
                 <h2>PROFILE</h2>
                 <h2>EDUCATION</h2>
                 <h2>SKILLS</h2>
