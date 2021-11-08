@@ -11,7 +11,7 @@ export const Education = () => {
             <ul>
                 <Timeline
                     title='Ceap'
-                    titleAttribute='Centro Educacional Assistencial Profissionalizante'
+                    subtitle='Centro Educacional Assistencial Profissionalizante'
                     description='Technical school (NGO)'
                     data='2018 - 2019'
                     link='https://ceappedreira.org.br'
@@ -19,7 +19,7 @@ export const Education = () => {
                 />
                 <Timeline
                     title='Zenaide'
-                    titleAttribute='E.E. Profª Zenaide Lopes de Oliveira Godoy'
+                    subtitle='E.E. Profª Zenaide Lopes de Oliveira Godoy'
                     description='High school'
                     data='2017 - 2019'
                     link='https://www.google.com/search?q=zenaide+lopes+de+oliveira+godoy'
