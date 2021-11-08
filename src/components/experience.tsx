@@ -16,6 +16,7 @@ export const Experience = () => {
                     data='From aug. to nov. 2019 | Ceap'
                     link='https://drive.google.com/file/d/1408tcdGv-okp5Ir8dzezivcBdITgyQWr/view?usp=sharing' // Banner
                     //link='https://drive.google.com/file/d/1YmSVvBxDYA2P0GEbpT6wFpSZElJcSPAc/view?usp=sharing' // Panfleto
+                    decoration={true}
                     context='experience'
                 />
                 <Timeline
@@ -24,6 +25,7 @@ export const Experience = () => {
                     description='In this project I was responsible for the assembly of the system, logic and design.'
                     data='From aug. to nov. 2018 | Ceap'
                     link='https://github.com/NyctibiusVII/Sistema-de-seguranca-a-laser'
+                    decoration={true}
                     context='experience'
                     last={true}
                 />

@@ -15,6 +15,7 @@ export const Education = () => {
                     description='Technical school (NGO)'
                     data='2018 - 2019'
                     link='https://ceappedreira.org.br'
+                    decoration={true}
                     context='education'
                 />
                 <Timeline
@@ -23,6 +24,7 @@ export const Education = () => {
                     description='High school'
                     data='2017 - 2019'
                     link='https://www.google.com/search?q=zenaide+lopes+de+oliveira+godoy'
+                    decoration={true}
                     context='education'
                     last={true}
                 />

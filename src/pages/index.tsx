@@ -1,13 +1,14 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
-import { Profile }    from '../components/profile'
-import { Social }     from '../components/social'
-import { Summary }    from '../components/summary'
-import { Education }  from '../components/education'
-import { Skills }     from '../components/skills'
-import { Experience } from '../components/experience'
-import { Languages }  from '../components/languages'
-import { Interests }  from '../components/interests'
+import { Profile }   from '../components/profile'
+import { Social }    from '../components/social'
+import { Summary }   from '../components/summary'
+import { Education } from '../components/education'
+import { Skills }    from '../components/skills'
+import { Experience }   from '../components/experience'
+import { Certificates } from '../components/certificates'
+import { Languages }    from '../components/languages'
+import { Interests }    from '../components/interests'
 
 import Head  from 'next/head'
 
@@ -30,9 +31,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <Experience />
-
-                <h2>CERTIFICATES</h2>
-
+                <Certificates />
                 <Languages />
                 <Interests />
             </main>

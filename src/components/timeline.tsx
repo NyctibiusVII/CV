@@ -13,12 +13,13 @@ interface TimelineProps {
     data:            string
     link:            string
     context:         'education' | 'experience'
+    decoration?:     boolean
     last?:           boolean
 }
 
 export const Timeline = (props: TimelineProps) => {
     return (
-        <li className={`${styles.container} ${props.last ? styles.last : ''}`}>
+        <li className={`${styles.container} ${props.decoration ? styles.decoration : ''} ${props.decoration && props.last ? styles.last : ''}`}>
             <h3 title={props.subtitle}>
                 <Link href={props.link}><a target='_blank'>{props.title}</a></Link>
             </h3>
