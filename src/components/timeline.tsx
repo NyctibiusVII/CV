@@ -8,7 +8,7 @@ import styles from '../styles/components/timeline.module.scss'
 
 interface TimelineProps {
     title:           string
-    titleAttribute?: string
+    subtitle?:       string
     description:     string
     data:            string
     link:            string
@@ -19,18 +19,19 @@ interface TimelineProps {
 export const Timeline = (props: TimelineProps) => {
     return (
         <li className={`${styles.container} ${props.last ? styles.last : ''}`}>
-            <h3 title={props.titleAttribute}>
+            <h3 title={props.subtitle}>
                 <Link href={props.link}><a target='_blank'>{props.title}</a></Link>
             </h3>
             { props.context === 'education' ?
                 <>
                     <p>{props.description}</p>
-                    <small>{props.data}</small>
+                    <small className={styles.lastItem}>{props.data}</small>
                 </>
                 :
                 <>
                     <small>{props.data}</small>
-                    <p>{props.description}</p>
+                    <strong>{props.subtitle}</strong>
+                    <p className={styles.lastItem}>{props.description}</p>
                 </>
             }
         </li>

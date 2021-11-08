@@ -11,8 +11,8 @@
 
     gap: 0.3rem;
 
-    h3    { line-height:    1rem; }
-    small { padding-bottom: 1rem; }
+    h3 { line-height: 1rem; }
+    .lastItem { margin-top: -0.3rem; padding-bottom: 1rem; }
 
     &.last { border-left: 0.125rem dashed transparent }
     &::before {

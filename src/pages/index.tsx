@@ -1,10 +1,11 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
-import { Profile }   from '../components/profile'
-import { Social }    from '../components/social'
-import { Summary }   from '../components/summary'
-import { Education } from '../components/education'
-import { Skills }    from '../components/skills'
+import { Profile }    from '../components/profile'
+import { Social }     from '../components/social'
+import { Summary }    from '../components/summary'
+import { Education }  from '../components/education'
+import { Skills }     from '../components/skills'
+import { Experience } from '../components/experience'
 
 import Head  from 'next/head'
 
@@ -26,7 +27,8 @@ export default function Home() {
             </aside>
 
             <main className={styles.main}>
-                <h2>EXPERIENCE</h2>
+                <Experience />
+
                 <h2>CERTIFICATES</h2>
                 <h2>REFERENCES</h2>
                 <h2>LANGUAGES</h2>
