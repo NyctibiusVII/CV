@@ -1,8 +1,9 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
-import { Profile } from '../components/profile'
-import { Social }  from '../components/social'
-import { Summary }  from '../components/summary'
+import { Profile }   from '../components/profile'
+import { Social }    from '../components/social'
+import { Summary }   from '../components/summary'
+import { Education } from '../components/education'
 
 import Head  from 'next/head'
 
@@ -19,8 +20,8 @@ export default function Home() {
                 <Profile />
                 <Social />
                 <Summary />
+                <Education />
 
-                <h2>EDUCATION</h2>
                 <h2>SKILLS</h2>
             </aside>
 

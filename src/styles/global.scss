@@ -80,6 +80,9 @@
     --main-background          : transparent;
     /* Profile -------------- */
     --profile-username         : var(--blue-400);
+    /* Timeline ------------- */
+    --timeline-line-border     : var(--grey-400);
+    --timeline-circle-bg       : var(--grey-400);
     /* Donwload Pdf --------- */
     --d-pdf-background         : transparent;
     --d-pdf-color-hover        : var(--green-100);
@@ -109,6 +112,9 @@
     --main-background            : transparent;
     /* Profile ---------------- */
     --profile-username           : var(--white);
+    /* Timeline ------------- */
+    --timeline-line-border     : var(--white);
+    --timeline-circle-bg       : var(--white);
     /* Donwload Pdf ----------- */
     --d-pdf-background           : transparent;
     --d-pdf-color-hover          : var(--green-100);
