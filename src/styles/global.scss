@@ -135,9 +135,10 @@ html {
         color: var(--text);
 
         h2 {
+            font-weight: 500;
+            line-height: 4rem;
+            letter-spacing: 0.3rem;
             text-transform: uppercase;
-
-            margin-bottom: 0.5rem;
         }
     }
     body,
