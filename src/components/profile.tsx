@@ -38,7 +38,7 @@ export const Profile = () => {
             <DownloadPdf />
 
             <div className={styles.datas}>
-                <p><i className='bx bx-map bx-xs'      />R. Amador lourenço #495 - SP</p>
+                <p><i className='bx bx-map bx-xs'      />São Paulo - SP</p> {/* R. Amador lourenço #N°~ */}
                 <p><i className='bx bx-envelope bx-xs' />matheus.dev.07@gmail.com</p>
                 <p><i className='bx bx-phone bx-xs'    />(11) 97132-1587</p>
             </div>
