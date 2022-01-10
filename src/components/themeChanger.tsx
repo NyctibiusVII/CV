@@ -20,10 +20,10 @@ export const ThemeChanger = () => {
 
     return (
         <button
-            type="button"
+            type='button'
             onClick={toggleTheme}
-            title="Alternar tema claro/escuro"
-            aria-label="Alternar tema claro/escuro"
+            title='Toggle light/dark theme'
+            aria-label='Toggle light/dark theme'
             data-ga-event-action={theme}
             style={{
                 width: '1.5rem',
