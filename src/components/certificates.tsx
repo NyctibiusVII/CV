@@ -10,10 +10,18 @@ export const Certificates = () => {
             <h2>Certificates</h2>
             <ul>
                 <Timeline
+                    title='ReactJS | NextJS'
+                    subtitle='Rocketseat'
+                    description='Rocketseat (Ignite - trail ReactJS)'
+                    data='Issued in dec. 2021'
+                    link='https://app.rocketseat.com.br/api/certificates/pdf/211eefbd-c6b6-47c8-b56b-8297b3d7eb66'
+                    context='education'
+                />
+                <Timeline
                     title='Responsiveness and User Experience Concepts'
                     subtitle='DIO'
                     description='Digital Innovation One Inc.'
-                    data='Issued in dev. 2020'
+                    data='Issued in dec. 2020'
                     link='https://certificates.digitalinnovation.one/A2124FBC'
                     context='education'
                 />
@@ -22,7 +30,7 @@ export const Certificates = () => {
                     subtitle='Ceap'
                     description='CEAP - Centro Educacional Assistencial Profissionalizante'
                     data='Issued in feb. 2020'
-                    link='https://ceappedreira.org.br'
+                    link='https://ceappedreira.org.br' // - Colocar link do certificado
                     context='education'
                 />
             </ul>
