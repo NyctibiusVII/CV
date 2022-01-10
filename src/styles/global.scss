@@ -62,35 +62,38 @@
 }
 [data-theme='light'] {
     /* ~~~~~~~~~~~~~~~~~ Geral ~~~~~~~~~~~~~~~~~ */
-    --background               : var(--grey-100);
-    --border                   : var(--shadow-5p);
-    --line                     : var(--grey-300);
-    --title                    : var(--blue-400);
-    --text                     : var(--grey-500);
-    /* Scrollbar ------------ */
-    --scrollbar-bg             : transparent;
-    --scrollbar-thumb-bg       : var(--blue-400);
-    --scrollbar-corner-bg      : transparent;
+    --background                 : var(--grey-100);
+    --border                     : var(--shadow-5p);
+    --line                       : var(--grey-300);
+    --title                      : var(--blue-400);
+    --text                       : var(--grey-500);
+    /* Scrollbar -------------- */
+    --scrollbar-bg               : transparent;
+    --scrollbar-thumb-bg         : var(--blue-400);
+    --scrollbar-corner-bg        : transparent;
+    /* Scroll to top ---------- */
+    --scroll-to-top-bg           : var(--grey-300);
+    --scroll-to-top-bg-hover     : var(--blue-400);
     /* Selection Mouse -------- */
     --selection-mouse-background : var(--blue-400);
     --selection-mouse-foreground : var(--code-cyan);
-    /* Aside ---------------- */
-    --aside-background         : var(--grey-300);
-    /* Main ----------------- */
-    --main-background          : transparent;
-    /* Profile -------------- */
-    --profile-username         : var(--blue-400);
-    /* Timeline ------------- */
-    --timeline-line-border     : var(--grey-400);
-    --timeline-circle-bg       : var(--grey-400);
-    /* Donwload Pdf --------- */
-    --d-pdf-background         : transparent;
-    --d-pdf-color-hover        : var(--green-100);
-    --d-pdf-border             : var(--grey-500);
-    --d-pdf-border-hover       : var(--green-100);
-    /* 404 Page ------------- */
-    --404-background           : var(--red-100);
-    --404-text                 : var(--white);
+    /* Aside ------------------ */
+    --aside-background           : var(--grey-300);
+    /* Main ------------------- */
+    --main-background            : transparent;
+    /* Profile ---------------- */
+    --profile-username           : var(--blue-400);
+    /* Timeline --------------- */
+    --timeline-line-border       : var(--grey-400);
+    --timeline-circle-bg         : var(--grey-400);
+    /* Donwload Pdf ----------- */
+    --d-pdf-background           : transparent;
+    --d-pdf-color-hover          : var(--green-100);
+    --d-pdf-border               : var(--grey-500);
+    --d-pdf-border-hover         : var(--green-100);
+    /* 404 Page --------------- */
+    --404-background             : var(--red-100);
+    --404-text                   : var(--white);
 }
 [data-theme='dark'] {
     /* ~~~~~~~~~~~~~~~~~ Geral ~~~~~~~~~~~~~~~~~ */
@@ -103,6 +106,9 @@
     --scrollbar-bg               : transparent;
     --scrollbar-thumb-bg         : var(--code-orange);
     --scrollbar-corner-bg        : transparent;
+    /* Scroll to top ---------- */
+    --scroll-to-top-bg           : var(--code-background);
+    --scroll-to-top-bg-hover     : var(--code-orange);
     /* Selection Mouse -------- */
     --selection-mouse-background : var(--code-background);
     --selection-mouse-foreground : var(--code-orange);
@@ -112,9 +118,9 @@
     --main-background            : transparent;
     /* Profile ---------------- */
     --profile-username           : var(--white);
-    /* Timeline ------------- */
-    --timeline-line-border     : var(--white);
-    --timeline-circle-bg       : var(--white);
+    /* Timeline --------------- */
+    --timeline-line-border       : var(--white);
+    --timeline-circle-bg         : var(--white);
     /* Donwload Pdf ----------- */
     --d-pdf-background           : transparent;
     --d-pdf-color-hover          : var(--green-100);
@@ -135,9 +141,10 @@ html {
         color: var(--text);
 
         h2 {
+            font-weight: 500;
+            line-height: 4rem;
+            letter-spacing: 0.3rem;
             text-transform: uppercase;
-
-            margin-bottom: 0.5rem;
         }
     }
     body,

@@ -9,6 +9,7 @@ import { Experience }   from '../components/experience'
 import { Certificates } from '../components/certificates'
 import { Languages }    from '../components/languages'
 import { Interests }    from '../components/interests'
+import { ScrollToTop }  from '../components/scrollToTop'
 
 import Head  from 'next/head'
 
@@ -35,6 +36,8 @@ export default function Home() {
                 <Languages />
                 <Interests />
             </main>
+
+            <ScrollToTop />
         </div>
     )
 }

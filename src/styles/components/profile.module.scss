@@ -32,12 +32,13 @@
         overflow: hidden;
     }
     .name {
-        font-weight: lighter;
+        font-weight: 200;
         text-transform: uppercase;
 
         &::after {
             content: "Vidigal";
-            font-weight: bold;
+
+            font-weight: 500;
         }
     }
     .description { font-size: larger; }
