@@ -1,10 +1,11 @@
 <h1 align="center">
     <br>
-    <img src="./.github/profile.jpg" width="150" alt="Logo CV" style="border-radius: 100%">
+    <img src="./.github/profile.png" width="150" alt="Logo CV">
 </h1>
 <!-- <h4 align="center">Projeto ...</h4> -->
 <p align="center">
-    <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=Mobile/PC&color=FFB86C&labelColor=22232d">
+    <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Platform&message=Mobile/PC&color=FFB86C&labelColor=22232d">
+    <img alt="CV" src="https://img.shields.io/static/v1?label=Version&message=1.0&color=FFB86C&labelColor=22232d">
     <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/NyctibiusVII/CV?color=FFB86C&labelColor=22232d">
     <a href="https://github.com/NyctibiusVII/CV/blob/main/LICENSE">
         <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=FFB86C&labelColor=22232d">
