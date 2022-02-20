@@ -11,12 +11,12 @@ export default class MyDocument extends Document {
             title = 'CV - Matheus Vidigal',
             site  = 'CV - Matheus Vidigal',
             link  = 'https://cv-nyctibiusvii.vercel.app',
-            favicon      = `${link}/favicon.svg`,
+            favicon      = `${link}/favicon.png`,
             homeImg      = `${link}/HomePage-1366x768.png`,
             NyctibiusVII = 'Matheus Vidigal - (NyctibiusVII)',
             NyctibiusVII_twitter = '@NyctibiusVII',
             description = 'My CV Online - Matheus Vidigal',
-            keywords    = 'cv, curriculum, vitae, curriculum_vitae, online, ingles, portugues, curriculo, html, sass, typescript, reactjs, nextjs, projeto, vercel, matheus, matheus vidigal, pdf'
+            keywords    = 'cv, curriculum, vitae, curriculum_vitae, online, ingles, português, currículo, html, sass, typescript, reactjs, nextjs, projeto, vercel, Matheus, Matheus Vidigal, pdf'
 
         return (
             <Html lang='en'>

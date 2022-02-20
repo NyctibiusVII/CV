@@ -10,6 +10,15 @@ export const Education = () => {
             <h2>Education</h2>
             <ul>
                 <Timeline
+                    title='Uniamérica Descomplica'
+                    subtitle='Faculdade Descomplica Digital'
+                    description='University education'
+                    data='2022 - 2024'
+                    link='https://descomplica.com.br'
+                    decoration={true}
+                    context='education'
+                />
+                <Timeline
                     title='Ceap'
                     subtitle='Centro Educacional Assistencial Profissionalizante'
                     description='Technical school (NGO)'
