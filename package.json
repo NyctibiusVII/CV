@@ -1,5 +1,7 @@
 {
   "name": "cv",
+  "version": "1.0.0",
+  "description": "My Curriculum Vitae - (CV) 👔📄",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +10,23 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyctibiusVII/CV.git"
+  },
+  "keywords": [
+    "CV",
+    "Online",
+    "NextJS",
+    "Curriculum Vitae",
+    "Portfolio",
+    "Resume"
+  ],
+  "homepage": "https://github.com/NyctibiusVII/CV#readme",
+  "bugs": {
+    "url": "https://github.com/NyctibiusVII/CV/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "next": "12.1.0",
     "next-themes": "^0.0.15",
@@ -22,5 +41,8 @@
     "eslint-config-next": "12.0.3",
     "next-sitemap": "^1.6.203",
     "typescript": "4.4.4"
+  },
+  "engines": {
+    "node": "^17.7.1"
   }
 }
