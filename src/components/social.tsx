@@ -2,7 +2,7 @@ export const Social = () => {
     return (
         <div className='container'>
             <h2>Social</h2>
-            <div>
+            <div translate='no'>
                 <p><i className='bx bxl-linkedin-square bx-xs' />@matheus-vidigal-nyctibiusvii</p>
                 <p><i className='bx bxl-github bx-xs'          />@NyctibiusVII</p>
                 <p><i className='bx bxl-instagram-alt bx-xs'   />@nyctibius_vii</p>

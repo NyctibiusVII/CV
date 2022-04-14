@@ -22,7 +22,7 @@ export const Profile = () => {
             <div className={styles.profileImage}>
                 <Image
                     src={profileImage}
-                    alt="Foto de perfil"
+                    alt="Profile photo"
                     layout="responsive"
                     placeholder="blur"
                     decoding="async"
@@ -37,8 +37,8 @@ export const Profile = () => {
 
             <DownloadPdf />
 
-            <div className={styles.datas}>
-                <p><i className='bx bx-map bx-xs'      />São Paulo - SP</p> {/* R. Amador lourenço #N°~ */}
+            <div className={styles.datas} translate='no'>
+                <p><i className='bx bx-map bx-xs'      />São Paulo - SP</p>
                 <p><i className='bx bx-envelope bx-xs' />matheus.dev.07@gmail.com</p>
                 <p><i className='bx bx-phone bx-xs'    />(11) 97132-1587</p>
             </div>

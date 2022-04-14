@@ -2,7 +2,7 @@ export const Skills = () => {
     return (
         <div className='container'>
             <h2>Skills</h2>
-            <div>
+            <div translate='no'>
                 <ul>
                     <li>Html</li>
                     <li>Css</li>
@@ -33,7 +33,7 @@ export const Skills = () => {
                 }
 
 
-                
+
                 /* Desktop */
                 @media (min-width: 750px) { .container { align-items: flex-start; } .container div { padding-left: 1.5rem; } }
             `}</style>
