@@ -33,7 +33,7 @@ Projeto desenvolvido para ser um Curriculum Vitae (CV) online. O projeto é um C
 
 #### Funcionalidades
 * CV online
-* Download do arquivo (CV) em .pdf
+* 🚧 Download do arquivo (CV) em .pdf 🚧
 * App responsivo
 * Light/Dark mode
 * Fácil interação
@@ -129,10 +129,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ```
 > Ex: `$ npm install _____` ou `$ yarn add _____` para instalar as dependências
 
-> Utilize a tag `-D` para instalar as dependências de desenvolvimento.
-> Utilize a tag `@types` para instalar o suporte a Typescript.
+> Utilize a tag `-D` para instalar as dependências de desenvolvimento.<br>
+> Utilize a tag `@types` para instalar o suporte a Typescript.<br>
 > Utilize a tag `@latest` para instalar a versão mais recente.
-
 </details>
 
 ```bash
@@ -152,14 +151,15 @@ $ npm run dev   /   yarn dev    # NPM ou Yarn (default: Yarn)
 ```
 
 ## Contribuição 💭
-Confira a página de [contribuição](./CONTRIBUTING.md) para ver como começar uma discução e começar a contribuir.
+Confira a página de [contribuição](./CONTRIBUTING) para ver como começar uma discussão e começar a contribuir.
 
 ## Licença ⚖️
 Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/NyctibiusVII/CV/blob/main/LICENSE) para mais detalhes.
 
 ## Contato ✉️
-| <img src="https://user-images.githubusercontent.com/52816125/90341686-05b68880-dfd8-11ea-969c-70c9ce9d0278.jpg" width=100><br><sub><a href="https://www.instagram.com/nyctibius_vii/?hl=pt-br">@MatheusVidigal🦊</a></sub> |
+| [![Matheus Vidigal](https://github.com/NyctibiusVII.png?size=100)](https://github.com/NyctibiusVII) |
 | :---: |
+| <sub>[Matheus Vidigal](https://github.com/NyctibiusVII)</sub> |
 
 <p align="left">
     <a href="https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii/">
