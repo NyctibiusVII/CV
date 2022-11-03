@@ -14,8 +14,8 @@ export const Experience = () => {
                     subtitle={`'Bares' application (Delivery)`}
                     description={`This project had a partnership with 'Etec Irmã Agostina'. I worked on the idealization and was a part responsible for creating the mobile app.`}
                     data='From aug. to nov. 2019 | Ceap'
-                    link='https://drive.google.com/file/d/1408tcdGv-okp5Ir8dzezivcBdITgyQWr/view?usp=sharing' // Banner
-                    //link='https://drive.google.com/file/d/1YmSVvBxDYA2P0GEbpT6wFpSZElJcSPAc/view?usp=sharing' // Panfleto
+                    link='https://drive.google.com/file/d/1408tcdGv-okp5Ir8dzezivcBdITgyQWr/view' // Banner
+                    //link='https://drive.google.com/file/d/1YmSVvBxDYA2P0GEbpT6wFpSZElJcSPAc/view' // Panfleto
                     decoration={true}
                     context='experience'
                 />
@@ -39,7 +39,7 @@ export const Experience = () => {
                 }
                 .container ul { width: 90%; }
 
-                
+
 
                 /* Desktop */
                 @media (min-width: 450px) { .container ul { max-width: 80%; } }

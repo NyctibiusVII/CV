@@ -1,9 +1,11 @@
 /* Import ---------------------------------------------------------------------- */ // - x70
 
+import { useTheme } from 'next-themes'
+
 import { DownloadPdf }  from '../components/downloadPdf'
 import { ThemeChanger } from '../components/themeChanger'
 
-import profileImage from '../../public/profile.jpg'
+import profileImage from '../../public/profile.png'
 
 import Image from 'next/image'
 
@@ -12,6 +14,10 @@ import styles from '../styles/components/profile.module.scss'
 /* ---------------------------------------------------------------------- */
 
 export const Profile = () => {
+    const { theme } = useTheme()
+
+    const profileClassName = [styles.profileImage, styles[theme ?? 'light']].join(' ')
+
     return (
         <header className={styles.container}>
             <div className={styles.innerHeader}>
@@ -19,7 +25,7 @@ export const Profile = () => {
                 <ThemeChanger />
             </div>
 
-            <div className={styles.profileImage}>
+            <div className={profileClassName}>
                 <Image
                     src={profileImage}
                     alt="Profile photo"

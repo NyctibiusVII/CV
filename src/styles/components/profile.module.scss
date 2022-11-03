@@ -12,7 +12,7 @@
         align-items: center;
         justify-content: flex-end;
 
-        button:first-child { display: none; }
+        a button:first-child { display: none; }
     }
     .profileImage {
         width: 7rem;
@@ -26,10 +26,9 @@
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
 
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-
         overflow: hidden;
+
+        &.light { filter: grayscale(100%); }
     }
     .name {
         font-weight: 200;
@@ -57,10 +56,10 @@
         .innerHeader {
             justify-content: space-between;
 
-            button:first-child { display: block; }
+            a button:first-child { display: block; }
         }
 
-        > button { display: none; }
+        > a button { display: none; }
 
         .datas { margin-top: 3rem; }
     }

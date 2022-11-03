@@ -2,6 +2,9 @@
 .vscode
 # .gitignore
 
+# project
+/public/profile-old.*
+
 # dependencies
 /node_modules
 /.pnp

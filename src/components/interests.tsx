@@ -3,9 +3,9 @@ export const Interests = () => {
         <div className='container'>
             <h2>Interests</h2>
             <div>
-                <p><i className='bx bx-headphone bx-sm' />Music</p>
-                <p><i className='bx bx-palette bx-sm'   />Drawings</p>
-                <p><i className='bx bx-book bx-sm'      />Read</p>
+                {/* <p><i className='bx bx-headphone bx-sm' />Music</p> */}
+                <p translate='no'><i className='bx bx-palette bx-sm'   />Design</p>
+                <p><i className='bx bx-book bx-sm'      />Documentation</p>
                 <p><i className='bx bx-code-alt bx-sm'  />Code</p>
             </div>
 

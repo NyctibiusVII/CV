@@ -33,8 +33,8 @@ export default class MyDocument extends Document {
                     <meta name='HandheldFriendly'        content='True'                       />
                     <meta name='google'                  content='translate'                  />
                     <meta name='referrer'                content='no-referrer-when-downgrade' />
-                    <meta name='theme-color'             content='#22232d'                    />
-                    <meta name='msapplication-TileColor' content='#22232d'                    />
+                    <meta name='theme-color'             content='#22232d'                  />
+                    <meta name='msapplication-TileColor' content='#22232d'                  />
                     <meta name='msapplication-TileImage' content={ favicon }                  />
 
                     <meta name='author'   content={ NyctibiusVII } />
@@ -71,7 +71,7 @@ export default class MyDocument extends Document {
                     <meta name='twitter:image:width'  content='1366'                   />
                     <meta name='twitter:image:height' content='768'                    />
 
-                    <link rel='shortcut icon' href='/icons/logo.png' type='image/png' />
+                    <link rel='shortcut icon' href='/favicon.png' type='image/png' />
 
                     <link rel='preconnect' href='https://fonts.googleapis.com' />
                     <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='anonymous' />

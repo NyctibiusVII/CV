@@ -3,9 +3,20 @@ export const Social = () => {
         <div className='container'>
             <h2>Social</h2>
             <div translate='no'>
-                <p><i className='bx bxl-linkedin-square bx-xs' />@matheus-vidigal-nyctibiusvii</p>
-                <p><i className='bx bxl-github bx-xs'          />@NyctibiusVII</p>
-                <p><i className='bx bxl-instagram-alt bx-xs'   />@nyctibius_vii</p>
+                <a href='https://github.com/NyctibiusVII'>
+                    <i className='bx bxl-github bx-xs' />
+                    @NyctibiusVII
+                </a>
+
+                <a href='https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii'>
+                    <i className='bx bxl-linkedin-square bx-xs' />
+                    @matheus-vidigal-nyctibiusvii
+                </a>
+
+                {/* <a href='https://www.instagram.com/nyctibius_vii'>
+                    <i className='bx bxl-instagram-alt bx-xs' />
+                    @nyctibius_vii
+                </a> */}
             </div>
 
             <style jsx>{`
@@ -14,7 +25,7 @@ export const Social = () => {
                     flex-direction: column;
                     align-items: center;
                 }
-                p {
+                a {
                     display: flex;
                     align-items: center;
 
