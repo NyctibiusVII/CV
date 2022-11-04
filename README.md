@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <img src="./.github/profile.png" width="150" alt="Logo CV" style="border-radius: 100%;">
+    <img src="./.github/profile.png" width="150" alt="Logo CV">
 </h1>
 <!-- <h4 align="center">Projeto ...</h4> -->
 <p align="center">
