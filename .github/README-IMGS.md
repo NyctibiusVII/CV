@@ -9,20 +9,16 @@
     <img width="400px" src="./desktop/home-light.png">
     <img width="400px" src="./desktop/home-dark.png">
 </div>
-<img width="400px" src="./desktop/home-dark-full.png">
 
 ## Mobile Screenshot
 <div style="display: flex; flex-direction: 'row';">
-<!-- Responsive, 425 x 900, 60% (Mobile L - 425px)-->
+<!-- Responsive, 320 x 720, 75% (Mobile L - 320px)-->
     <img width="180px" src="./mobile/home-light.png">
     <img width="180px" src="./mobile/home-dark.png">
 </div>
-<img width="180px" src="./mobile/home-light-full.png">
     <!-- IMGS
       ------------------------------
       home-light
       home-dark
-      home-light-full
-      home-dark-full
       ------------------------------
     -->

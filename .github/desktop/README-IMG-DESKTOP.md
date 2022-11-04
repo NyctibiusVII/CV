@@ -9,11 +9,9 @@
     <img width="400px" src="./home-light.png">
     <img width="400px" src="./home-dark.png">
 </div>
-<img width="400px" src="./home-dark-full.png">
     <!-- IMGS
       ------------------------------
       home-light
       home-dark
-      home-dark-full
       ------------------------------
     -->

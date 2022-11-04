@@ -1,11 +1,11 @@
 <h1 align="center">
     <br>
-    <img src="./.github/profile.png" width="150" alt="Logo CV">
+    <img src="./.github/profile.png" width="150" alt="Logo CV" style="border-radius: 100%;">
 </h1>
 <!-- <h4 align="center">Projeto ...</h4> -->
 <p align="center">
     <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Platform&message=Mobile/PC&color=FFB86C&labelColor=22232d">
-    <img alt="CV" src="https://img.shields.io/static/v1?label=Version&message=1.0&color=FFB86C&labelColor=22232d">
+    <img alt="CV" src="https://img.shields.io/static/v1?label=Version&message=1.1&color=FFB86C&labelColor=22232d">
     <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/NyctibiusVII/CV?color=FFB86C&labelColor=22232d">
     <a href="https://github.com/NyctibiusVII/CV/blob/main/LICENSE">
         <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=FFB86C&labelColor=22232d">
@@ -33,10 +33,9 @@ Projeto desenvolvido para ser um Curriculum Vitae (CV) online. O projeto é um C
 
 #### Funcionalidades
 * CV online
-* 🚧 Download do arquivo (CV) em .pdf 🚧
 * App responsivo
 * Light/Dark mode
-* Fácil interação
+* Download do arquivo (CV) em .pdf
 
 #### Milha Extra🔥
 <details>
@@ -74,7 +73,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript | ^4.4.4](https://www.typescriptlang.org)
 - [ReactJS | ^17.0.2](https://pt-br.reactjs.org)
 - [NextJS | ^12.0.3](https://nextjs.org)
-- [NodeJS | ^14.17.3](https://nodejs.org)
+- [NodeJS | 16.x](https://nodejs.org)
 - [Sass | ^1.43.4](https://sass-lang.com)
 
 ## Layout 🚧
@@ -104,7 +103,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Rodando o projeto 🚴🏻‍♂️
 #### "Só vou dar uma olhadinha...":
-  <a href="https://cv-nyctibiusvii.vercel.app/">👔 Site hospedado na Vercel 📄</a>
+  <a href="https://cv-nyctibiusvii.vercel.app">👔 Site hospedado na Vercel 📄</a>
 
 #### Na sua maquina:
 <details>
